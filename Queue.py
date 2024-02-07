@@ -5,7 +5,6 @@ import queue
 
 q = queue.Queue();
 
-
 def worker():
     while True:
         item = q.get()
