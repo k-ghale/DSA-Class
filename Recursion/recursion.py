@@ -17,7 +17,6 @@ def fib(n):
 
 print(fib(5));
 
-
 def Toh(n,start_rod,inter,dest_rod):
     if(n == 0):
         return;
