@@ -1,5 +1,3 @@
-
-
 class Node:
     def __init__(self,data):
         self.data = data
@@ -10,9 +8,7 @@ def traversed_linked_list(head):
     while current is not None:
         print(current.data)
         current = current.next
-        
     print()
-    
 
 head = Node(10)
 second = Node(20)
