@@ -1,5 +1,4 @@
 
-
 def fact(n):
     if(n < 1):
         return 1;
@@ -26,3 +25,11 @@ def Toh(n,start_rod,inter,dest_rod):
     return Toh(n-1,dest_rod,inter,start_rod);
 
 Toh(4,'A','B','C');
+
+
+def factorial(num):
+    if(num < 1):
+        return 1;
+    return num * factorial(num-1);
+
+print(factorial(10));
